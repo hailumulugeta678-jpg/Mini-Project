@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student CRUD Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Student Information System (CRUD)</h1>
+
+<div class="form">
+    <input type="text" id="id" placeholder="Student ID">
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="text" id="dept" placeholder="Department">
+    <input type="email" id="email" placeholder="Email">
+    <button onclick="addStudent()">Add Student</button>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Email</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody id="studentTable"></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
